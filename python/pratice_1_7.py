@@ -1,13 +1,13 @@
 list = [1,2,4,5,6,13,35]
 
-#--------printing sum ,avg.max and min--------------
+# Q1--------printing sum ,avg.max and min--------------
 avg = sum(list)/len(list)
 print(f"Average: {avg}")
 print(f"Sum: {sum(list)}")
 print(f"Maximum: {max(list)}")
 print(f"Mininum: {min(list)}")
 
-#--------------Count Even and Odd--------------------
+# Q2--------------Count Even and Odd--------------------
 ecount = 0
 ocount = 0
 for i in list:
@@ -20,7 +20,7 @@ for i in list:
 print(f"Even count: {ecount}")
 print(f"Odd count: {ocount}")
 
-#---------Remove Duplicate from list---------------
+# Q3---------Remove Duplicate from list---------------
 lst = [1,2,2,3,4,4,5]
 sin_lst = []
 
@@ -32,26 +32,28 @@ lst=sin_lst
        
 print(f"list without duplicate: {lst}")
 
-#---------reverse a string using slicing--------------
+# Q4---------reverse a string using slicing--------------
 
 str = "nihao"
 rev = str[::-1]
 print(rev)
 
-#---------print even number from 1 to 20 -----------
+# Q5---------print even number from 1 to 20 -----------
 
 for i in range(1,21):
     if i % 2==0:
         print(i)
 
-#---------multiply list of element by 2--------------
+# Q6---------multiply list of element by 2--------------
 ele = [5,10,15,20,6,11,2,13]
 new_lst = [i * 2 for i in ele]
 print(new_lst)
         
-#----------Count number greater than 9------------
+# Q7----------Count number greater than 9------------
 count = len([i for i in ele if i>9])
 print(count)
+
+
 
 
 
