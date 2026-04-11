@@ -51,6 +51,10 @@ ar = np.array([12,45,2,41,31,10])
 top3 = np.partition(ar,-3)[-3:][::-1]
 print(f"the top 3 max numbers in the given array {ar} is {top3}")
 
+# Q-----------------create a 3 x 4 matrix of zeros, then set the diagonal to 5
+matt = np.zeros((3,4))
+np.fill_diagonal(matt,5)
+print(matt)
     
 
 
